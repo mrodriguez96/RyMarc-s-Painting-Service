@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--This page is used to create a new customer account. They enter in all the
+required information, and the data is sent to the sign_up.php page to be inserted
+into the database.
+-->
+<html>
+<head>
+  <title> Sign Up </title>
+</head>
+<body style="background-color:grey;">
+
+<form method = "post" action = "sign_up.php">
+    <table width="400" align="center" bgcolor="lightgrey">
+    <tr align="left">
+    <td> <h1>Sign Up</h1> </td>
+    </tr>
+    <tr>
+    <td align= "left"> <b>First Name: </b> </td>
+    <td> <input type="text" placeholder="John" name="firstname" required></td>
+    </tr>
+    <tr>
+    <td align= "left"> <b>Last Name: </b> </td>
+    <td> <input type="text" placeholder="Smith" name="lastname" required></td>
+    </tr>
+    <tr>
+    <td align= "left"> <b>Email: </b></td>
+    <td> <input type="text" placeholder="your@email.com" name="email" required></td>
+    </tr>
+    <tr>
+    <td align= "left"> <b>Phone: </b></td>
+    <td> <input type="phone" placeholder="(###)-###-####" name="phone" required></td>
+    </tr>
+    <tr>
+    <td align= "left"> <b>Password: </b></td>
+    <td> <input type="password" placeholder="Enter Password" name="password" required></td>
+    <tr>
+    <td align = "left"> <button type="submit" class="submit">Submit</button> </td>
+    </tr>
+</form>
+</body>
