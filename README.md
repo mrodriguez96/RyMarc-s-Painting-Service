@@ -12,7 +12,11 @@ The “Give Feedback” page allows customers to leave reviews of work done by e
 
 # Test Users
 Admin User: boss1@gmail.com Password: painter
+
 Customer 1: bjazz@gmail.com Password: toast
+
 Customer 2: arod13@gmail.com Password: baseball
+
 Customer 3: jalo25@gmail.com Password: soccer
+
 Customer 4: thebestsam@gmail.com Password: lovebest
